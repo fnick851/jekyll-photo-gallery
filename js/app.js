@@ -1,9 +1,8 @@
-(function() {
+(function () {
     "use strict";
 
-    // fade in landing page photo once it is loaded
-    window.fadeIn = function(obj) {
-        $(obj).fadeIn(1500);
-    };
+    // fade in images
+    $('.fadedIn-image').fadeIn(1500);
+    $('.fadedIn-image').parent().parent().parent().find('p') ? $('img').parent().parent().parent().find('p').fadeIn(1600) : null;
 
 })();
