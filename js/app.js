@@ -9,7 +9,7 @@
 
     setTimeout(function () {
         $('.fadedIn-image').css('opacity', '1');
-        $('.fadedIn-image').parent().parent().parent().find('p') ? $(this).parent().parent().parent().find('p').fadeIn(1600) : null;
+        $('.fadedIn-image').parent().parent().parent().find('p') ? $('.fadedIn-image').parent().parent().parent().find('p').fadeIn(1600) : null;
     }, 2000);
 
 })();
