@@ -38,7 +38,7 @@ body {
 }
 
 .about-modal-button {
-    
+    border: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
