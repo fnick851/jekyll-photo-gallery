@@ -41,6 +41,9 @@ body {
     color: #55575b;
     background: transparent;
     border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .about-modal-button:hover {
@@ -75,18 +78,21 @@ body {
 }
 
 
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
     .album-row {
         margin-bottom: 0;
     }
+
     .album-row p {
         position: initial;
         padding: 0 5px 0 5px;
     }
+
     .album-text-left {
         text-align: left;
     }
+
     .hide-on-mobile {
         display: none;
     }
- }
+}
