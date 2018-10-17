@@ -37,6 +37,10 @@ body {
     height: 120px;
 }
 
+.about-modal-button {
+    color: #55575b;
+}
+
 .about-modal-button:hover {
     cursor: pointer;
 }
