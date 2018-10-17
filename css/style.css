@@ -39,6 +39,7 @@ body {
 
 .about-modal-button {
     color: #55575b;
+    border-width: 0;
     border: none;
     background: transparent;
     -webkit-appearance: none;
