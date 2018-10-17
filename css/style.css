@@ -30,6 +30,8 @@ body {
 
 .inner-title a {
     color: #55575b;
+    font-family: MeriendaOne-Regular, serif;
+    font-size: 20px;
     text-decoration: none;
 }
 
