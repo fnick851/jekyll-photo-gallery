@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: MeriendaOne-Regular;
+    src: url(../fonts/Merienda_One/MeriendaOne-Regular.ttf);
+}
+
+body {
+    background-color: #d2d9c5;
+    color: #55575b;
+}
+
+.fadedIn-image {
+    opacity: 0;
+    transition-duration: 1.5s;
+}
+
+.landing-title {
+    font-family: MeriendaOne-Regular, serif;
+    font-size: 40px;
+}
+
+.inner-title {
+    font-family: MeriendaOne-Regular, serif;
+    font-size: 20px;
+}
+
+.inner-title a {
+    color: #55575b;
+    font-family: MeriendaOne-Regular, serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.header-spacing {
+    height: 120px;
+}
+
+.about-modal-button:active {
+    text-decoration: none;
+}
+
+.about-modal-button:hover {
+    cursor: pointer;
+}
+
+.modal-content.custom-modal {
+    background-color: #d9ddd0;
+    border-radius: 0;
+}
+
+.modal-content.custom-modal .close {
+    color: #55575b
+}
+
+.album-row {
+    margin-bottom: 100px;
+}
+
+.album-row p {
+    font-family: Lato-Regular, sans-serif;
+    font-size: 15px;
+    max-width: 350px;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.album-text-left {
+    right: 0;
+    text-align: right;
+}
+
+
+@media (max-width: 768px) {
+    .album-row {
+        margin-bottom: 0;
+    }
+
+    .album-row p {
+        position: initial;
+        padding: 0 5px 0 5px;
+    }
+
+    .album-text-left {
+        text-align: left;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+}
