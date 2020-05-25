@@ -1,5 +1,5 @@
-# A photo gallery made for my friend Yiman He
+# A sample photo gallery site once made for my friend
 
-Prototype photo gallery site.
+Prototype photo gallery site made with Jekyll.
+
 Photos are placeholders.
-Made with Jekyll.
